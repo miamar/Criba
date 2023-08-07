@@ -1,0 +1,164 @@
+html {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif !important;
+    color: #252525 !important;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(22, 108, 155, 0.8);
+    z-index: 1031;
+    cursor: pointer;
+}
+#overlay > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.spinner-border {
+    width: 6rem;
+    height: 6rem;
+    color: #fff;
+    border-width: 0.5rem;
+}
+.modal-body p {
+    font-size: 1.6rem;
+}
+
+a,
+a:hover {
+    color: #166c9b;
+}
+
+#navbarSearchForm {
+    border-bottom: 0.5px solid #000;
+}
+
+#navbarSearchForm input {
+    border: 0 none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+#navbarSearchForm .input-group:first-child {
+    width: calc(100% - 3rem);
+}
+
+#navbarSearchForm i {
+    font-size: 1.5rem;
+}
+
+.breadcrumb {
+    font-size: 1.4rem;
+    background-color: transparent;
+    padding-left: 0;
+}
+.breadcrumb li {
+    font-size: 1.4rem;
+}
+
+.breadcrumb a,
+.breadcrumb a:visited,
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+    color: #024296;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "";
+    border: solid #242424;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2.5px;
+    color: #242424;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right: 6px;
+}
+
+.breadcrumb-item.active {
+    color: #242424;
+}
+
+.form-control,
+.form-control-file {
+    font-size: 1.6rem;
+    height: unset;
+    padding: 0.7rem 1rem;
+}
+.select2 {
+    font-size: 1.6rem;
+    height: unset;
+    border-radius: 0.25rem;
+    max-width: 100%;
+}
+.select2-results__option {
+    font-size: 1.6rem;
+}
+.btn-secondary {
+    height: unset;
+}
+.form-group div[id*="map"],
+.leaflet-container.alpaca_map {
+    width: 100%;
+    float: unset;
+}
+.pick-a-color-markup .color-preview {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+.color-dropdown.dropdown-toggle::after {
+    border-top: 0.5em solid;
+    border-right: 0.5em solid transparent;
+    border-left: 0.5em solid transparent;
+    vertical-align: 0.75rem;
+}
+
+.reset_map {
+    background-position: -180px -1px;
+    background-image: url("../leaflet/draw/images/spritesheet-2x.png");
+    background-image: linear-gradient(transparent, transparent),
+        url("../leaflet/draw/images/spritesheet.svg");
+    background-repeat: no-repeat;
+    background-size: 300px 30px;
+    background-clip: padding-box;
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    width: 33px;
+    height: 33px;
+}
+.reset_map:hover {
+    background-color: #f4f4f4;
+}
+
+label,
+.struct_label {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    font-weight: 600;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.password_reset_link {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+}

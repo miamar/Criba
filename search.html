@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Require Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="/static/img/favicon.ico">
+        <title>
+            
+    
+        Search
+
+            - Criba
+        </title>
+
+        <!-- Meta SEO -->
+        <meta name="description" content="Criba" />
+
+        <!-- Import Stylesheets -->
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6d3e3b542c.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/css/style.css?v=0.124">
+        <link rel="stylesheet" href="/static/css/search.css">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/css/account/account.css?v=0.124">
+
+
+    </head>
+    <body class="body project_list">
+
+            <header id="criba_header" class="sticky-top">
+ 
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center justify-content-between py-3">
+                        <a class="navbar-brand" href="home.html">
+                                <img src="/static/img/logoH.svg"
+                                class="img-fluid"
+                                alt="Criba. Progettare l'inclusione">
+                         </a>
+                        
+ 
+                        <div class="d-flex align-items-center">
+                                <a href="/it/manage/users/" class="mr-5">
+                                    <i class="fas fa-user-friends"></i>
+                                    <span>Utenti</span>
+                                </a>
+                            
+                            
+                                <a href="/it/manage/accounts/logout/" class="mr-5">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <span>Logout
+                                        
+                                    </span>
+                                </a>
+                            
+                            <a href="" class="btn btn-outline-primary"><i class="fa fa-search"></i>Cerca</a>
+
+                        </div>
+
+                    </div>
+ 
+                </div>
+            </header>
+        
+
+        <main>
+            <div class="container-fluid">
+                <div id="messages_conatiner">
+                    
+                </div>
+            </div>
+            
+            <!-- Title -->
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <a href="result.html" class="btn btn-outline-primary mr-3"><i class="fas fa-search"></i>Cerca</a>
+                        
+                        <a href="search.html" class="btn btn-outline-primary mr-3"><i class="fas fa-trash"></i>Elimina</a>
+                    </div>
+                    
+                    <a href="home.html" class="btn btn-outline-primary btn-close">X</a> 
+                </div>
+                
+                <h2 class="mt-5 pt-5">Ricerca generica</h2>
+            </div>
+
+            <!-- Form - Ricerca generica -->
+            <div class="container-fluid mt-5">
+                <fieldset class="form_fieldset">
+                    <!-- <legend class="mb-3">dati</legend> -->
+                    <div class="card shadow border-card mb-4">
+                        <div class="card-body">
+                            <div class="form-row">
+
+                                <div class="form-group col-md-6 mb-0">
+                                    <div id="" class="form-group">
+                                        <label>Cartella</label>
+                                        <div>
+                                            <select name="" autocomplete="off" class="select form-control" id="">
+                                                <option value="" selected>---------</option>
+                                              
+                                                <option value="">Cartella 1</option>
+                                              
+                                                <option value="">Cartella 2</option>
+                                              
+                                                <option value="">Cartella 3</option>
+                                              
+                                              </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-6 mb-0">
+                                    <div id="" class="form-group">
+                                        <label>Status</label>
+                                        <div>
+                                            <select name="" autocomplete="off" class="select form-control" id="">
+                                                <option value="" selected>---------</option>
+                                              
+                                                <option value="">Non pubblicato</option>
+                                              
+                                                <option value="">Pubblicato</option>
+                                              
+                                                <option value="">Verificato</option>
+                                              
+                                              </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            
+            <!-- Title -->
+            <div class="container-fluid">
+                
+                <h2 class="mt-5 pt-3">Ricerca specifica</h2>
+            
+            </div>
+
+            <!-- Forms - Ricerca specifica -->
+            <div class="container-fluid mt-5">
+
+                <div class="d-flex align-items-center">
+                    <label class="mb-0">Tipo di oggetto:</label>
+
+                    <div class="form-check d-flex align-items-center ml-5">
+                        <input type="checkbox" class="form-check-input" name="" value="9"  autocomplete="off" id="" checked>
+                        <label class="form-check-label" for="">Struttura</label>
+                    </div>
+
+                    <div class="form-check d-flex align-items-center ml-5">
+                        <input type="checkbox" class="form-check-input" name="" value="9"  autocomplete="off" id="" checked>
+                        <label class="form-check-label" for="">Percorso</label>
+                    </div>
+
+                    <div class="form-check d-flex align-items-center ml-5">
+                        <input type="checkbox" class="form-check-input" name="" value="9"  autocomplete="off" id="" checked>
+                        <label class="form-check-label" for="">Plurilocale</label>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        
+
+        <div id="overlay">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Import Javascripts -->
+        <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+ 
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="/static/js/account/account.js?v=0.124"></script>
+        
+    <script src="/static/js/account/permessi.js?v=0.124"></script>
+
+    </body>
+</html>

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Require Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="/static/img/favicon.ico">
+        <title>
+            
+    
+        Result
+
+            - Criba
+        </title>
+
+        <!-- Meta SEO -->
+        <meta name="description" content="Criba" />
+
+        <!-- Import Stylesheets -->
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6d3e3b542c.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/css/style.css?v=0.124">
+        <link rel="stylesheet" href="/static/css/search.css">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/css/account/account.css?v=0.124">
+
+
+    </head>
+    <body class="body project_list">
+
+            <header id="criba_header" class="sticky-top">
+ 
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center justify-content-between py-3">
+                        <a class="navbar-brand" href="home.html">
+                                <img src="/static/img/logoH.svg"
+                                class="img-fluid"
+                                alt="Criba. Progettare l'inclusione">
+                         </a>
+                        
+ 
+                        <div class="d-flex align-items-center">
+                                <a href="/it/manage/users/" class="mr-5">
+                                    <i class="fas fa-user-friends"></i>
+                                    <span>Utenti</span>
+                                </a>
+                            
+                            
+                                <a href="/it/manage/accounts/logout/" class="mr-5">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <span>Logout
+                                        
+                                    </span>
+                                </a>
+                            
+                            <a href="" class="btn btn-outline-primary"><i class="fa fa-search"></i>Cerca</a>
+
+                        </div>
+
+                    </div>
+ 
+                </div>
+            </header>
+        
+
+        <main>
+            <div class="container-fluid">
+                <div id="messages_conatiner">
+                    
+                </div>
+            </div>
+            
+
+    <!-- Title -->
+    <div class="container-fluid">
+        
+        <div class="d-flex justify-content-between">
+            <div>
+                <a href="search.html" class="btn btn-outline-primary mr-3"><i class="fas fa-pen"></i>Modifica</a>
+
+                <a href="" class="btn btn-outline-primary mr-3"><i class="fas fa-file-pdf"></i>Scarica PDF</a>
+                
+            </div>
+
+            <a href="home.html" class="btn btn-outline-primary btn-close">X</a>
+            
+        </div>
+
+        <h2 class="mt-5 pt-3">7 resultati</h2>
+        
+    </div>
+
+    <div class="container-fluid mt-5">
+        <table class="table table-hover border" id="projects_table">
+            
+                
+<!-- Inside on Table -->
+<thead>
+	
+    <tr>
+	
+        <th scope="col" data-order="title">
+            <span>Titolo</span>
+            <i class="fas fa-sort"></i>
+	
+        </th>
+	
+        <th scope="col">
+            <span>Tipo di oggetto</span>
+        </th>
+	
+        <th scope="col" data-order="creation_date">
+            <span>Creato il</span>
+            <i class="fas fa-sort"></i>
+	
+        </th>
+	
+        <th scope="col" data-order="update_date">
+            <span>Aggiornato il</span>
+            <i class="fas fa-sort-down"></i>
+	
+        </th>
+	
+        <th scope="col" data-order="published">
+            <span>Status</span>
+            <i class="fas fa-sort"></i>
+        </th>
+        <th scope="col" class="text-center" colspan="2">
+            <span>Indice di accessibilità:</span>
+            <br/>
+            <span>Status/Modificato dal rilevatore</span>
+        </th>
+        <th scope="col">
+            <span class="sr-only">Azioni</span>
+	
+        </th>
+	
+    </tr>
+</thead>
+<tbody>
+
+	
+    
+	
+        <tr>
+	
+            <th data-label="Titolo" scope="row" class="cell-heder">
+                <a href="/it/manage/page/159/">Cartella schede prova</a>
+
+	
+            </th>
+	
+            <td data-label="Tipo di oggetto" class="cell-date">
+                <span>
+                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
+                </span>
+	
+            </td>
+	
+            <td data-label="Creato il" class="cell-date">
+                <span class="d-block mb-2">22/01/2021</span>
+                <span>da criba</span>
+	
+            </td>
+	
+            <td data-label="Aggiornato il" class="cell-date">
+	
+                
+                    <span class="d-block mb-2">09/06/2023</span>
+                    <span>da criba</span>
+	
+                
+
+	
+            </td>
+	
+            <td data-label="Status" class="cell-status">
+                
+	
+                
+ 
+                    
+                        <span class="badge badge-secondary">
+                            
+                                Non pubblicato
+                            
+                        </span>
+                    
+                
+	
+            </td>
+            <td data-label="Status Indice di accessibilità"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+            <td data-label="Indice di accessibilità modificato dal rilevatore"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+
+	
+            <td class="cell-action">
+                
+                    <a href="#"
+                       class="btn btn-link btn-link--icon"
+                       title="Gestione permessi"
+                       data-label="Gestione permessi"
+                       data-toggle="modal"
+                       data-target="#permissions-item"
+                       data-remote="/it/manage/explorer/item/159/permissions/">
+                        <i class="fa fa-users"></i>
+                    </a>
+                
+                
+ 
+                
+ 
+                
+                    
+                        <span style="padding-right:72px;"></span>
+                        <a href="/it/manage/item/update/159/"
+                           class="btn btn-link btn-link--icon"
+                           data-toggle="modal"
+                           data-target="#addItemModal">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                    
+	
+                
+                
+                    <a href="/it/manage/item/del/159/"
+                       data-global="false"
+                       class="btn btn-link btn-link--icon"
+                       data-toggle="modal"
+                       data-target="#deleteItemModal">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                
+ 
+
+                <!--  -->
+	
+            </td>
+	
+        </tr>
+	
+    
+	
+        <tr>
+	
+            <th data-label="Titolo" scope="row" class="cell-heder">
+                <a href="/it/manage/page/199/">TRIESTE</a>
+
+	
+            </th>
+	
+            <td data-label="Tipo di oggetto" class="cell-date">
+                <span>
+                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
+                </span>
+	
+            </td>
+	
+            <td data-label="Creato il" class="cell-date">
+                <span class="d-block mb-2">17/03/2021</span>
+                <span>da criba</span>
+	
+            </td>
+	
+            <td data-label="Aggiornato il" class="cell-date">
+	
+                
+                    <span class="d-block mb-2">17/03/2021</span>
+                    <span>da criba</span>
+	
+                
+
+	
+            </td>
+	
+            <td data-label="Status" class="cell-status">
+                
+	
+                
+ 
+                    
+                        <span class="badge badge-secondary">
+                            
+                                Non pubblicato
+                            
+                        </span>
+                    
+                
+	
+            </td>
+            <td data-label="Status Indice di accessibilità"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+            <td data-label="Indice di accessibilità modificato dal rilevatore"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+
+	
+            <td class="cell-action">
+                
+                    <a href="#"
+                       class="btn btn-link btn-link--icon"
+                       title="Gestione permessi"
+                       data-label="Gestione permessi"
+                       data-toggle="modal"
+                       data-target="#permissions-item"
+                       data-remote="/it/manage/explorer/item/199/permissions/">
+                        <i class="fa fa-users"></i>
+                    </a>
+                
+                
+ 
+                
+ 
+                
+                    
+                        <span style="padding-right:72px;"></span>
+                        <a href="/it/manage/item/update/199/"
+                           class="btn btn-link btn-link--icon"
+                           data-toggle="modal"
+                           data-target="#addItemModal">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                    
+	
+                
+                
+                    <a href="/it/manage/item/del/199/"
+                       data-global="false"
+                       class="btn btn-link btn-link--icon"
+                       data-toggle="modal"
+                       data-target="#deleteItemModal">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                
+ 
+
+                <!--  -->
+	
+            </td>
+	
+        </tr>
+	
+    
+	
+        <tr>
+	
+            <th data-label="Titolo" scope="row" class="cell-heder">
+                <a href="/it/manage/page/198/">PORDENONE</a>
+
+	
+            </th>
+	
+            <td data-label="Tipo di oggetto" class="cell-date">
+                <span>
+                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
+                </span>
+	
+            </td>
+	
+            <td data-label="Creato il" class="cell-date">
+                <span class="d-block mb-2">17/03/2021</span>
+                <span>da criba</span>
+	
+            </td>
+	
+            <td data-label="Aggiornato il" class="cell-date">
+	
+                
+                    <span class="d-block mb-2">17/03/2021</span>
+                    <span>da criba</span>
+	
+                
+
+	
+            </td>
+	
+            <td data-label="Status" class="cell-status">
+                
+	
+                
+ 
+                    
+                        <span class="badge badge-secondary">
+                            
+                                Non pubblicato
+                            
+                        </span>
+                    
+                
+	
+            </td>
+            <td data-label="Status Indice di accessibilità"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+            <td data-label="Indice di accessibilità modificato dal rilevatore"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+
+	
+            <td class="cell-action">
+                
+                    <a href="#"
+                       class="btn btn-link btn-link--icon"
+                       title="Gestione permessi"
+                       data-label="Gestione permessi"
+                       data-toggle="modal"
+                       data-target="#permissions-item"
+                       data-remote="/it/manage/explorer/item/198/permissions/">
+                        <i class="fa fa-users"></i>
+                    </a>
+                
+                
+ 
+                
+ 
+                
+                    
+                        <span style="padding-right:72px;"></span>
+                        <a href="/it/manage/item/update/198/"
+                           class="btn btn-link btn-link--icon"
+                           data-toggle="modal"
+                           data-target="#addItemModal">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                    
+	
+                
+                
+                    <a href="/it/manage/item/del/198/"
+                       data-global="false"
+                       class="btn btn-link btn-link--icon"
+                       data-toggle="modal"
+                       data-target="#deleteItemModal">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                
+ 
+
+                <!--  -->
+	
+            </td>
+	
+        </tr>
+	
+    
+	
+        <tr>
+	
+            <th data-label="Titolo" scope="row" class="cell-heder">
+                <a href="/it/manage/page/197/">GORIZIA</a>
+
+	
+            </th>
+	
+            <td data-label="Tipo di oggetto" class="cell-date">
+                <span>
+                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
+                </span>
+	
+            </td>
+	
+            <td data-label="Creato il" class="cell-date">
+                <span class="d-block mb-2">17/03/2021</span>
+                <span>da criba</span>
+	
+            </td>
+	
+            <td data-label="Aggiornato il" class="cell-date">
+	
+                
+                    <span class="d-block mb-2">17/03/2021</span>
+                    <span>da criba</span>
+	
+                
+
+	
+            </td>
+	
+            <td data-label="Status" class="cell-status">
+                
+	
+                
+ 
+                    
+                        <span class="badge badge-secondary">
+                            
+                                Non pubblicato
+                            
+                        </span>
+                    
+                
+	
+            </td>
+            <td data-label="Status Indice di accessibilità"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+            <td data-label="Indice di accessibilità modificato dal rilevatore"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+
+	
+            <td class="cell-action">
+                
+                    <a href="#"
+                       class="btn btn-link btn-link--icon"
+                       title="Gestione permessi"
+                       data-label="Gestione permessi"
+                       data-toggle="modal"
+                       data-target="#permissions-item"
+                       data-remote="/it/manage/explorer/item/197/permissions/">
+                        <i class="fa fa-users"></i>
+                    </a>
+                
+                
+ 
+                
+ 
+                
+                    
+                        <span style="padding-right:72px;"></span>
+                        <a href="/it/manage/item/update/197/"
+                           class="btn btn-link btn-link--icon"
+                           data-toggle="modal"
+                           data-target="#addItemModal">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                    
+	
+                
+                
+                    <a href="/it/manage/item/del/197/"
+                       data-global="false"
+                       class="btn btn-link btn-link--icon"
+                       data-toggle="modal"
+                       data-target="#deleteItemModal">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                
+ 
+
+                <!--  -->
+	
+            </td>
+	
+        </tr>
+	
+    
+	
+        <tr>
+	
+            <th data-label="Titolo" scope="row" class="cell-heder">
+                <a href="/it/manage/page/196/">UDINE</a>
+
+	
+            </th>
+	
+            <td data-label="Tipo di oggetto" class="cell-date">
+                <span>
+                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
+                </span>
+	
+            </td>
+	
+            <td data-label="Creato il" class="cell-date">
+                <span class="d-block mb-2">17/03/2021</span>
+                <span>da criba</span>
+	
+            </td>
+	
+            <td data-label="Aggiornato il" class="cell-date">
+	
+                
+                    <span class="d-block mb-2">17/03/2021</span>
+                    <span>da criba</span>
+	
+                
+
+	
+            </td>
+	
+            <td data-label="Status" class="cell-status">
+                
+	
+                
+ 
+                    
+                        <span class="badge badge-secondary">
+                            
+                                Non pubblicato
+                            
+                        </span>
+                    
+                
+	
+            </td>
+            <td data-label="Status Indice di accessibilità"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+            <td data-label="Indice di accessibilità modificato dal rilevatore"
+                class="cell-status text-center">
+                
+                
+	
+            </td>
+
+	
+            <td class="cell-action">
+                
+                    <a href="#"
+                       class="btn btn-link btn-link--icon"
+                       title="Gestione permessi"
+                       data-label="Gestione permessi"
+                       data-toggle="modal"
+                       data-target="#permissions-item"
+                       data-remote="/it/manage/explorer/item/196/permissions/">
+                        <i class="fa fa-users"></i>
+                    </a>
+                
+                
+ 
+                
+ 
+                
+                    
+                        <span style="padding-right:72px;"></span>
+                        <a href="/it/manage/item/update/196/"
+                           class="btn btn-link btn-link--icon"
+                           data-toggle="modal"
+                           data-target="#addItemModal">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                    
+	
+                
+                
+                    <a href="/it/manage/item/del/196/"
+                       data-global="false"
+                       class="btn btn-link btn-link--icon"
+                       data-toggle="modal"
+                       data-target="#deleteItemModal">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                
+ 
+
+                <!--  -->
+	
+            </td>
+	
+        </tr>
+	
+    
+
+</tbody>
+
+            
+        </table>
+ 
+ 
+        
+    </div>
+
+    <!-- Modal Aggiungi Progetto2 -->
+    <div class="modal fade"
+         id="addItemModal"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="addItemModalTitle"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="addItemModalTitle">Aggiungi item</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Elimina Progetto -->
+    <div class="modal fade"
+         id="deleteItemModal"
+         data-backdrop="static"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="deleteItemModalTitle"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="deleteItemModalTitle">Elimina item</h6>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade"
+         id="permissions-item"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="permissions-item-label"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="permissions-item-label">
+                        
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    
+                        <div class="row">
+                            <div class="col py-5 font-weight-bold text-center">
+                                <i class="fas fa-cog fa-spin"></i> Caricamento in corso...
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        </main>
+
+
+        
+
+        <div id="overlay">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Import Javascripts -->
+        <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+ 
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="/static/js/account/account.js?v=0.124"></script>
+        
+    <script src="/static/js/account/permessi.js?v=0.124"></script>
+
+    </body>
+</html>
