@@ -5,3 +5,13 @@
 .form-check label {
     padding-left: 1rem;
 }
+
+.btn-outline-primary.active {
+    background: #166c9b!important;
+    color: #fff;
+}
+
+.btn-outline-primary.active i {
+    background: #166c9b!important;
+    color: #fff;
+}

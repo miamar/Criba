@@ -131,8 +131,9 @@ input[type="checkbox"][id*="-DELETE"] {
     color: #166c9b;
     padding: 6px 16px;
 }
+
 .btn-outline-primary:hover {
-    background: #166c9b;
+    background: #166c9b!important;
     color: #fff;
 }
 
@@ -141,7 +142,7 @@ input[type="checkbox"][id*="-DELETE"] {
     margin-right: 8px;
 }
 .btn-outline-primary:hover i {
-    background: #166c9b;
+    background: #166c9b!important;
     color: #fff;
 }
 
