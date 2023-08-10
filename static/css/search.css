@@ -22,3 +22,8 @@
     border-bottom: 2px solid #166c9b;
     font-size: 1.5rem !important;
 }
+
+.checkbox-container {
+    gap: 1rem; /* Adjust the spacing between items as needed */
+    margin: 0;
+}

@@ -139,7 +139,7 @@
                                 <div class="form-group col-md-6 mb-0">
                                     <div id="" class="form-group">
                                         <label>Status</label>
-                                        <div class="d-flex align-items-center mb-3">
+                                        <div class="row checkbox-container mb-3">
             
                                             <div class="form-check d-flex align-items-center mr-5">
                                                 <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="" checked>
@@ -158,7 +158,7 @@
 
                                             <div class="form-check d-flex align-items-center mr-5">
                                                 <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="" checked>
-                                                <label class="form-check-label" for="">Non verificatoo</label>
+                                                <label class="form-check-label" for="">Non verificato</label>
                                             </div>
                         
                                         </div>
@@ -355,13 +355,13 @@
                                 <div class="form-group col-md-3 mb-0">
 
                                     <label>Modificato dal rilevatore</label>
-                                    <div class="d-flex flex-column mb-3">
+                                    <div class="row checkbox-container mb-3">
             
                                         <div class="form-check d-flex align-items-center mr-5">
                                             <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="" checked>
-                                            <label class="form-check-label mb-3" for="">Modificato</label>
+                                            <label class="form-check-label" for="">Modificato</label>
                                         </div>
-            
+
                                         <div class="form-check d-flex align-items-center mr-5">
                                             <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="" checked>
                                             <label class="form-check-label" for="">Non modificato</label>
@@ -415,51 +415,195 @@
 
                  <div>
                     <div id="struttura" class="collapse show">
+
                         <fieldset class="form_fieldset">
 
-                    <div class="card shadow border-card mb-4">
-                        <div class="card-body">
-                            <div class="form-row">
+                            <legend class="mb-3">Dati generali</legend> 
 
-                                <legend class="mt-4 col-form-label">Indirizzo</legend>
-    
-                                <div class="form-group col-md-6 mb-0">
-                                    <div id="" class="form-group">
-                                        <label>Comune</label>
-                                        <div>
-                                            <select name="city" autocomplete="off" class="select form-control" id="id_city">
-                                                <option value="" selected>---------</option>
-                                              
-                                                <option value="">Comune 1</option>
-                                              
-                                                <option value="">Cartella 2</option>
-                                              
-                                                <option value="">Comune 3</option>
-                                              
-                                              </select>
+                            <div class="card shadow border-card mb-4">
+                                <div class="card-body">
+                                    <div class="form-row">
+        
+                                        <legend class="mt-4 col-form-label">Indirizzo</legend>
+            
+                                        <div class="form-group col-md-6 mb-0">
+                                            <div id="" class="form-group">
+                                                <label>Comune</label>
+                                                <div>
+                                                    <select name="city" autocomplete="off" class="select form-control" id="id_city">
+                                                        <option value="" selected>---------</option>
+                                                      
+                                                        <option value="">Comune 1</option>
+                                                      
+                                                        <option value="">Comune 2</option>
+                                                      
+                                                        <option value="">Comune 3</option>
+                                                      
+                                                      </select>
+                                                </div>
+                                            </div>
                                         </div>
+        
+                                        <div class="form-group col-md-6 mb-0">
+        
+                                            <div id="div_id_cap" class="form-group">
+                                                <label for="id_cap" class="">CAP</label>
+                                                <div>
+                                                    <input type="text" name="cap" value="" maxlength="5" autocomplete="off" class="textinput textInput form-control" id="id_cap">
+                                                </div>
+                                                
+                                            </div>
+        
+                                        </div>
+            
                                     </div>
-                                </div>
-
-                                <div class="form-group col-md-6 mb-0">
-
-                                    <div id="div_id_cap" class="form-group">
-                                        <label for="id_cap" class="">CAP</label>
-                                        <div>
-                                            <input type="text" name="cap" value="" maxlength="5" autocomplete="off" class="textinput textInput form-control" id="id_cap">
+        
+                                    <div class="form-row">
+        
+                                        <legend class="mt-4 col-form-label">Recapiti</legend>
+            
+                                        <div class="form-group col-md-6 mb-0">
+                                            <div id="" class="form-group">
+                                                
+                                                <div class="row checkbox-container mb-3">
+                    
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">Telefon</label>
+                                                    </div>
+                                
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">Fax</label>
+                                                    </div>
+        
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">E-mail</label>
+                                                    </div>
+        
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">Sito web</label>
+                                                    </div>
+                                
+                                                </div>
+                                            </div>
                                         </div>
-                                        
+        
+                                        <div class="form-group col-md-6 mb-0">
+                                        </div>
+            
+                                    </div>
+        
+                                    <div class="form-row">
+        
+                                        <legend class="mt-4 col-form-label">Altre informazioni</legend>
+            
+                                        <div class="form-group col-md-6 mb-0">
+                                            <div id="" class="form-group">
+        
+                                                <label>Categoria</label>
+                                                <div>
+                                                    <select name="city" autocomplete="off" class="select form-control" id="id_city">
+                                                        <option value="" selected>---------</option>
+                                                      
+                                                        <option value="">Categoria 1</option>
+                                                      
+                                                        <option value="">Categoria 2</option>
+                                                      
+                                                        <option value="">Categoria 3</option>
+                                                      
+                                                      </select>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+        
+                                        <div class="form-group col-md-6 mb-0">
+                                            <div id="" class="form-group">
+                                                
+                                                <label>Tipologia struttrua</label>
+                                                <div class="row checkbox-container mb-3">
+                    
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">Labbel 1</label>
+                                                    </div>
+                                
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">Labbel 2</label>
+                                                    </div>
+        
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">Labbel 3</label>
+                                                    </div>
+        
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">Labbel 4</label>
+                                                    </div>
+        
+                                                    <div class="form-check d-flex align-items-center mr-5">
+                                                        <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="">
+                                                        <label class="form-check-label" for="">Labbel 5</label>
+                                                    </div>
+                                
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="form-group col-md-6 mb-0">
+                                            <div id="" class="form-group">
+        
+                                                <label>Altra categoria</label>
+                                                <div>
+                                                    <select name="city" autocomplete="off" class="select form-control" id="id_city">
+                                                        <option value="" selected>---------</option>
+                                                      
+                                                        <option value="">Categoria 1</option>
+                                                      
+                                                        <option value="">Categoria 2</option>
+                                                      
+                                                        <option value="">Categoria 3</option>
+                                                      
+                                                      </select>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+            
+                                    </div>
+        
                                 </div>
-    
+        
                             </div>
 
-                    </div>
-                </fieldset>
+                        </fieldset>
+
+                        <fieldset class="form_fieldset">
+
+                            <legend class="mb-3">Rilevazione</legend> 
+
+                            <div class="card shadow border-card mb-4">
+                                
+                                <div class="card-body">
+        
+                                </div>
+        
+                            </div>
+
+                        </fieldset>
+
                     </div>
 
                     <div id="percorso" class="collapse">
                         <fieldset class="form_fieldset">
+
                             <legend class="mb-3">Dati generali2</legend> 
+
                             <div class="card shadow border-card mb-4">
                                 <div class="card-body">
                                     <div class="form-row">
@@ -473,7 +617,7 @@
                                                       
                                                         <option value="">Comune 1</option>
                                                       
-                                                        <option value="">Cartella 2</option>
+                                                        <option value="">Comune 2</option>
                                                       
                                                         <option value="">Comune 3</option>
                                                       
