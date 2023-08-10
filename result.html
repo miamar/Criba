@@ -71,721 +71,766 @@
  
                 </div>
             </header>
-        
 
-        <main>
-            <div class="container-fluid">
-                <div id="messages_conatiner">
-                    
-                </div>
-            </div>
-            
+            <main>
 
-    <!-- Title -->
-    <div class="container-fluid">
-        
-        <div class="d-flex justify-content-between">
-            <div>
-                <a href="search.html" class="btn btn-outline-primary mr-3"><i class="fas fa-pen"></i>Modifica</a>
-
-                <a href="" class="btn btn-outline-primary mr-3"><i class="fas fa-file-pdf"></i>Scarica PDF</a>
-                
-            </div>
-
-            <a href="home.html" class="btn btn-outline-primary btn-close">X</a>
-            
-        </div>
-
-        <h2 class="mt-5 pt-3">7 resultati</h2>
-        
-    </div>
-
-    <div class="container-fluid mt-5">
-        <table class="table table-hover border" id="projects_table">
-            
-                
-<!-- Inside on Table -->
-<thead>
-	
-    <tr>
-	
-        <th scope="col" data-order="title">
-            <span>Titolo</span>
-            <i class="fas fa-sort"></i>
-	
-        </th>
-	
-        <th scope="col">
-            <span>Tipo di oggetto</span>
-        </th>
-	
-        <th scope="col" data-order="creation_date">
-            <span>Creato il</span>
-            <i class="fas fa-sort"></i>
-	
-        </th>
-	
-        <th scope="col" data-order="update_date">
-            <span>Aggiornato il</span>
-            <i class="fas fa-sort-down"></i>
-	
-        </th>
-	
-        <th scope="col" data-order="published">
-            <span>Status</span>
-            <i class="fas fa-sort"></i>
-        </th>
-        <th scope="col" class="text-center" colspan="2">
-            <span>Indice di accessibilità:</span>
-            <br/>
-            <span>Status/Modificato dal rilevatore</span>
-        </th>
-        <th scope="col">
-            <span class="sr-only">Azioni</span>
-	
-        </th>
-	
-    </tr>
-</thead>
-<tbody>
-
-	
-    
-	
-        <tr>
-	
-            <th data-label="Titolo" scope="row" class="cell-heder">
-                <a href="/it/manage/page/159/">Cartella schede prova</a>
-
-	
-            </th>
-	
-            <td data-label="Tipo di oggetto" class="cell-date">
-                <span>
-                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
-                </span>
-	
-            </td>
-	
-            <td data-label="Creato il" class="cell-date">
-                <span class="d-block mb-2">22/01/2021</span>
-                <span>da criba</span>
-	
-            </td>
-	
-            <td data-label="Aggiornato il" class="cell-date">
-	
-                
-                    <span class="d-block mb-2">09/06/2023</span>
-                    <span>da criba</span>
-	
-                
-
-	
-            </td>
-	
-            <td data-label="Status" class="cell-status">
-                
-	
-                
- 
-                    
-                        <span class="badge badge-secondary">
-                            
-                                Non pubblicato
-                            
-                        </span>
-                    
-                
-	
-            </td>
-            <td data-label="Status Indice di accessibilità"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-            <td data-label="Indice di accessibilità modificato dal rilevatore"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-
-	
-            <td class="cell-action">
-                
-                    <a href="#"
-                       class="btn btn-link btn-link--icon"
-                       title="Gestione permessi"
-                       data-label="Gestione permessi"
-                       data-toggle="modal"
-                       data-target="#permissions-item"
-                       data-remote="/it/manage/explorer/item/159/permissions/">
-                        <i class="fa fa-users"></i>
-                    </a>
-                
-                
- 
-                
- 
-                
-                    
-                        <span style="padding-right:72px;"></span>
-                        <a href="/it/manage/item/update/159/"
-                           class="btn btn-link btn-link--icon"
-                           data-toggle="modal"
-                           data-target="#addItemModal">
-                            <i class="fas fa-pen"></i>
-                        </a>
-                    
-	
-                
-                
-                    <a href="/it/manage/item/del/159/"
-                       data-global="false"
-                       class="btn btn-link btn-link--icon"
-                       data-toggle="modal"
-                       data-target="#deleteItemModal">
-                        <i class="fas fa-trash"></i>
-                    </a>
-                
- 
-
-                <!--  -->
-	
-            </td>
-	
-        </tr>
-	
-    
-	
-        <tr>
-	
-            <th data-label="Titolo" scope="row" class="cell-heder">
-                <a href="/it/manage/page/199/">TRIESTE</a>
-
-	
-            </th>
-	
-            <td data-label="Tipo di oggetto" class="cell-date">
-                <span>
-                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
-                </span>
-	
-            </td>
-	
-            <td data-label="Creato il" class="cell-date">
-                <span class="d-block mb-2">17/03/2021</span>
-                <span>da criba</span>
-	
-            </td>
-	
-            <td data-label="Aggiornato il" class="cell-date">
-	
-                
-                    <span class="d-block mb-2">17/03/2021</span>
-                    <span>da criba</span>
-	
-                
-
-	
-            </td>
-	
-            <td data-label="Status" class="cell-status">
-                
-	
-                
- 
-                    
-                        <span class="badge badge-secondary">
-                            
-                                Non pubblicato
-                            
-                        </span>
-                    
-                
-	
-            </td>
-            <td data-label="Status Indice di accessibilità"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-            <td data-label="Indice di accessibilità modificato dal rilevatore"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-
-	
-            <td class="cell-action">
-                
-                    <a href="#"
-                       class="btn btn-link btn-link--icon"
-                       title="Gestione permessi"
-                       data-label="Gestione permessi"
-                       data-toggle="modal"
-                       data-target="#permissions-item"
-                       data-remote="/it/manage/explorer/item/199/permissions/">
-                        <i class="fa fa-users"></i>
-                    </a>
-                
-                
- 
-                
- 
-                
-                    
-                        <span style="padding-right:72px;"></span>
-                        <a href="/it/manage/item/update/199/"
-                           class="btn btn-link btn-link--icon"
-                           data-toggle="modal"
-                           data-target="#addItemModal">
-                            <i class="fas fa-pen"></i>
-                        </a>
-                    
-	
-                
-                
-                    <a href="/it/manage/item/del/199/"
-                       data-global="false"
-                       class="btn btn-link btn-link--icon"
-                       data-toggle="modal"
-                       data-target="#deleteItemModal">
-                        <i class="fas fa-trash"></i>
-                    </a>
-                
- 
-
-                <!--  -->
-	
-            </td>
-	
-        </tr>
-	
-    
-	
-        <tr>
-	
-            <th data-label="Titolo" scope="row" class="cell-heder">
-                <a href="/it/manage/page/198/">PORDENONE</a>
-
-	
-            </th>
-	
-            <td data-label="Tipo di oggetto" class="cell-date">
-                <span>
-                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
-                </span>
-	
-            </td>
-	
-            <td data-label="Creato il" class="cell-date">
-                <span class="d-block mb-2">17/03/2021</span>
-                <span>da criba</span>
-	
-            </td>
-	
-            <td data-label="Aggiornato il" class="cell-date">
-	
-                
-                    <span class="d-block mb-2">17/03/2021</span>
-                    <span>da criba</span>
-	
-                
-
-	
-            </td>
-	
-            <td data-label="Status" class="cell-status">
-                
-	
-                
- 
-                    
-                        <span class="badge badge-secondary">
-                            
-                                Non pubblicato
-                            
-                        </span>
-                    
-                
-	
-            </td>
-            <td data-label="Status Indice di accessibilità"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-            <td data-label="Indice di accessibilità modificato dal rilevatore"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-
-	
-            <td class="cell-action">
-                
-                    <a href="#"
-                       class="btn btn-link btn-link--icon"
-                       title="Gestione permessi"
-                       data-label="Gestione permessi"
-                       data-toggle="modal"
-                       data-target="#permissions-item"
-                       data-remote="/it/manage/explorer/item/198/permissions/">
-                        <i class="fa fa-users"></i>
-                    </a>
-                
-                
- 
-                
- 
-                
-                    
-                        <span style="padding-right:72px;"></span>
-                        <a href="/it/manage/item/update/198/"
-                           class="btn btn-link btn-link--icon"
-                           data-toggle="modal"
-                           data-target="#addItemModal">
-                            <i class="fas fa-pen"></i>
-                        </a>
-                    
-	
-                
-                
-                    <a href="/it/manage/item/del/198/"
-                       data-global="false"
-                       class="btn btn-link btn-link--icon"
-                       data-toggle="modal"
-                       data-target="#deleteItemModal">
-                        <i class="fas fa-trash"></i>
-                    </a>
-                
- 
-
-                <!--  -->
-	
-            </td>
-	
-        </tr>
-	
-    
-	
-        <tr>
-	
-            <th data-label="Titolo" scope="row" class="cell-heder">
-                <a href="/it/manage/page/197/">GORIZIA</a>
-
-	
-            </th>
-	
-            <td data-label="Tipo di oggetto" class="cell-date">
-                <span>
-                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
-                </span>
-	
-            </td>
-	
-            <td data-label="Creato il" class="cell-date">
-                <span class="d-block mb-2">17/03/2021</span>
-                <span>da criba</span>
-	
-            </td>
-	
-            <td data-label="Aggiornato il" class="cell-date">
-	
-                
-                    <span class="d-block mb-2">17/03/2021</span>
-                    <span>da criba</span>
-	
-                
-
-	
-            </td>
-	
-            <td data-label="Status" class="cell-status">
-                
-	
-                
- 
-                    
-                        <span class="badge badge-secondary">
-                            
-                                Non pubblicato
-                            
-                        </span>
-                    
-                
-	
-            </td>
-            <td data-label="Status Indice di accessibilità"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-            <td data-label="Indice di accessibilità modificato dal rilevatore"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-
-	
-            <td class="cell-action">
-                
-                    <a href="#"
-                       class="btn btn-link btn-link--icon"
-                       title="Gestione permessi"
-                       data-label="Gestione permessi"
-                       data-toggle="modal"
-                       data-target="#permissions-item"
-                       data-remote="/it/manage/explorer/item/197/permissions/">
-                        <i class="fa fa-users"></i>
-                    </a>
-                
-                
- 
-                
- 
-                
-                    
-                        <span style="padding-right:72px;"></span>
-                        <a href="/it/manage/item/update/197/"
-                           class="btn btn-link btn-link--icon"
-                           data-toggle="modal"
-                           data-target="#addItemModal">
-                            <i class="fas fa-pen"></i>
-                        </a>
-                    
-	
-                
-                
-                    <a href="/it/manage/item/del/197/"
-                       data-global="false"
-                       class="btn btn-link btn-link--icon"
-                       data-toggle="modal"
-                       data-target="#deleteItemModal">
-                        <i class="fas fa-trash"></i>
-                    </a>
-                
- 
-
-                <!--  -->
-	
-            </td>
-	
-        </tr>
-	
-    
-	
-        <tr>
-	
-            <th data-label="Titolo" scope="row" class="cell-heder">
-                <a href="/it/manage/page/196/">UDINE</a>
-
-	
-            </th>
-	
-            <td data-label="Tipo di oggetto" class="cell-date">
-                <span>
-                    <i class="fad fa-folder fa-lg mr-3 mb-3"></i>Cartella
-                </span>
-	
-            </td>
-	
-            <td data-label="Creato il" class="cell-date">
-                <span class="d-block mb-2">17/03/2021</span>
-                <span>da criba</span>
-	
-            </td>
-	
-            <td data-label="Aggiornato il" class="cell-date">
-	
-                
-                    <span class="d-block mb-2">17/03/2021</span>
-                    <span>da criba</span>
-	
-                
-
-	
-            </td>
-	
-            <td data-label="Status" class="cell-status">
-                
-	
-                
- 
-                    
-                        <span class="badge badge-secondary">
-                            
-                                Non pubblicato
-                            
-                        </span>
-                    
-                
-	
-            </td>
-            <td data-label="Status Indice di accessibilità"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-            <td data-label="Indice di accessibilità modificato dal rilevatore"
-                class="cell-status text-center">
-                
-                
-	
-            </td>
-
-	
-            <td class="cell-action">
-                
-                    <a href="#"
-                       class="btn btn-link btn-link--icon"
-                       title="Gestione permessi"
-                       data-label="Gestione permessi"
-                       data-toggle="modal"
-                       data-target="#permissions-item"
-                       data-remote="/it/manage/explorer/item/196/permissions/">
-                        <i class="fa fa-users"></i>
-                    </a>
-                
-                
- 
-                
- 
-                
-                    
-                        <span style="padding-right:72px;"></span>
-                        <a href="/it/manage/item/update/196/"
-                           class="btn btn-link btn-link--icon"
-                           data-toggle="modal"
-                           data-target="#addItemModal">
-                            <i class="fas fa-pen"></i>
-                        </a>
-                    
-	
-                
-                
-                    <a href="/it/manage/item/del/196/"
-                       data-global="false"
-                       class="btn btn-link btn-link--icon"
-                       data-toggle="modal"
-                       data-target="#deleteItemModal">
-                        <i class="fas fa-trash"></i>
-                    </a>
-                
- 
-
-                <!--  -->
-	
-            </td>
-	
-        </tr>
-	
-    
-
-</tbody>
-
-            
-        </table>
- 
- 
-        
-    </div>
-
-    <!-- Modal Aggiungi Progetto2 -->
-    <div class="modal fade"
-         id="addItemModal"
-         tabindex="-1"
-         role="dialog"
-         aria-labelledby="addItemModalTitle"
-         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6 class="modal-title" id="addItemModalTitle">Aggiungi item</h6>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">
-                            <i class="fas fa-times"></i>
-                        </span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="d-flex justify-content-center">
-                        <div class="spinner-border text-primary" role="status">
-                            <span class="sr-only">Loading...</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Elimina Progetto -->
-    <div class="modal fade"
-         id="deleteItemModal"
-         data-backdrop="static"
-         tabindex="-1"
-         role="dialog"
-         aria-labelledby="deleteItemModalTitle"
-         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6 class="modal-title" id="deleteItemModalTitle">Elimina item</h6>
-                </div>
-                <div class="modal-body">
-                    <div class="d-flex justify-content-center">
-                        <div class="spinner-border text-primary" role="status">
-                            <span class="sr-only">Loading...</span>
-                        </div>
-                    </div>
-                </div>
- 
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade"
-         id="permissions-item"
-         tabindex="-1"
-         role="dialog"
-         aria-labelledby="permissions-item-label"
-         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="permissions-item-label">
+                <div class="container-fluid">
+                    <div id="messages_conatiner">
                         
-                    </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    </div>
                 </div>
-                <div class="modal-body p-0">
-                    
-                        <div class="row">
-                            <div class="col py-5 font-weight-bold text-center">
-                                <i class="fas fa-cog fa-spin"></i> Caricamento in corso...
-                            </div>
+
+
+                <!-- Title -->
+                <div class="container-fluid">
+        
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="search.html" class="btn btn-outline-primary mr-3"><i class="fas fa-pen"></i>Modifica</a>
+            
+                            <a href="" class="btn btn-outline-primary mr-3"><i class="fas fa-file-pdf"></i>Scarica PDF</a>
+                            
                         </div>
+            
+                        <a href="home.html" class="btn btn-outline-primary btn-close">X</a>
+                        
+                    </div>
+
+                    <div class="risultati">
+
+                        <h2 class="mt-5 pt-3">4 resultati</h2>
+
+                        <div class="generale d-flex mt-3">
+                            <span class="title mr-3">Generale:</span> <span class="selezionato mx-3">Trieste</span> <span>-</span> <span class="selezionato mx-3">17/12/2017 - 20/12/2017</span>
+                        </div>
+
+                        <div class="struttura d-flex mt-3">
+                            <span class="title mr-3">Struttura:</span> <span class="selezionato mx-3">Item 1</span> <span>-</span> <span class="selezionato mx-3">Item 2</span>
+                        </div>
+
+                        <div class="percorso d-flex mt-3">
+                            <span class="title mr-3">Percorso:</span> <span class="selezionato mx-3">Item</span> 
+                        </div>
+
+                    </div>
                     
                 </div>
-            </div>
-        </div>
-    </div>
+
+                
+                <!-- Table settings -->
+                <div class="container-fluid mt-5">
+
+                    <div class="row checkbox-container mb-4 pt-3">
+            
+                        <div class="form-check d-flex align-items-center mr-5">
+                            <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="" checked>
+                            <label class="form-check-label" for="">Struttura</label>
+                        </div>
+    
+                    </div>
+
+                    <table class="table table-hover border" id="projects_table">
+                        
+                        <!-- Inside on Table_child -->
+            
+                        <thead>
+                
+                            <tr>
+                            
+                                <th scope="col" data-order="title">
+                                    <span>Titolo</span>
+                                    <i class="fas fa-sort"></i>
+                            
+                                </th>
+                            
+                                <th scope="col">
+                                    <span>Tipo di oggetto</span>
+                                    <i class="fas fa-sort"></i>
+                            
+                                </th>
+                            
+                                <th scope="col" data-order="creation_date">
+                                    <span>Creato il</span>
+                                    <i class="fas fa-sort"></i>
+                            
+                                </th>
+                            
+                                <th scope="col" data-order="update_date">
+                                    <span>Aggiornato il</span>
+                                    <i class="fas fa-sort-down"></i>
+                            
+                                </th>
+                        
+                                <th scope="col" data-order="published">
+                                    <span>Status</span>
+                                    <i class="fas fa-sort"></i>
+                            
+                                </th>
+                                <th scope="col" class="text-center" colspan="2">
+                                    <span>Indice di accessibilità:</span>
+                                    <br/>
+                                    <span>Status/Modificato dal rilevatore</span>
+                                </th>
+                        
+                            
+                                <th scope="col">
+                                    <span class="sr-only">Azioni</span>
+                            
+                                </th>
+                            
+                            </tr>
+                        </thead>
+            
+                        <tbody>
+	
+    
+	
+                            <tr>
+                        
+                                <th data-label="Titolo" scope="row" class="cell-heder">
+                                    <a href="/it/manage/structure/general/618/">Spaccio e cantina - Bajta - Fattoria Carsica</a>
+                        
+                                </th>
+                        
+                                <td data-label="Tipo di oggetto" class="cell-date">
+                                    <span>
+                                        <i class="fad fa-file fa-lg mr-3 mb-3"></i>
+                                        Struttura
+                                    </span>
+                        
+                                </td>
+                        
+                                <td data-label="Creato il" class="cell-date">
+                                    <span class="d-block mb-2">15/01/2022</span>
+                                    <span>by Carraro</span>
+                        
+                                </td>
+                        
+                                <td data-label="Aggiornato il" class="cell-date">
+                        
+                                    
+                                        <span class="d-block mb-2">08/06/2023</span>
+                                        <span>by criba</span>
+                        
+                                    
+                        
+                                </td>
+                        
+                                <td data-label="Status" class="cell-status">
+                                    
+                                    
+                                        <span class="badge badge-success">
+                     
+                                            
+                                                Pubblicato
+                                            
+                                        </span>
+                                        <br/>
+                                        <span class="badge mt-3 badge-success">
+                                            
+                                                Verificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                    
+                                <td data-label="Status Indice di accessibilità"
+                                    class="cell-status text-center">
+                                    
+                                    
+                                        <span class="badge badge-success">
+                                            
+                                                Pubblico
+                                            
+                                        </span>
+                                        <br/>
+                                        <span class="badge mt-3 badge-success">
+                                            
+                                                Verificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                                <td data-label="Indice di accessibilità modificato dal rilevatore"
+                                    class="cell-status text-center">
+                                    
+                                    
+                     
+                                        <span class="badge badge-success">
+                                            
+                                                NON modificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                     
+                    
+                        
+                                <td class="cell-action">
+                                    
+                                        <a href="#"
+                                           class="btn btn-link btn-link--icon"
+                                           title="Gestione permessi"
+                                           data-label="Gestione permessi"
+                                           data-toggle="modal"
+                                           data-target="#permissions-item"
+                                           data-remote="/it/manage/explorer/item/618/permissions/">
+                                            <i class="fa fa-users"></i>
+                                        </a>
+                                    
+                                    
+                    
+                                    
+                                        <div class="dropdown d-inline-block">
+                                            <button class="btn btn-link dropdown-toggle"
+                                                    type="button"
+                                                    id="dropdownMenuButton"
+                                                    data-toggle="dropdown"
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                <i class="fa fa-share" aria-hidden="true"></i>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                
+                                                    <a href="/it/manage/download-structure-pdf/618/"
+                                                       class="btn btn-link btn-link--icon"
+                                                       title="Esporta in PDF">
+                                                        <i class="fas fa-file-pdf"></i> Esporta in PDF
+                                                    </a>
+                                                    <a href="/it/manage/download-xls/618/"
+                                                       class="btn btn-link btn-link--icon"
+                                                       title="Esporta in Excel">
+                                                        <i class="fas fa-table"></i> Esporta in Excel
+                                                    </a>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                     
+                                    
+                                        
+                                            <a href="/it/manage/structure/duplicate/618/"
+                                               class="btn btn-link btn-link--icon"
+                                               title="Copia">
+                                                <i class="fas fa-copy"></i>
+                                            </a>
+                                        
+                        
+                                    
+                                    
+                                        <a href="/it/manage/structure/general/618/"
+                                           class="btn btn-link btn-link--icon"
+                                           title="Modifica">
+                                            <i class="fas fa-pen"></i>
+                                        </a>
+                    
+                                        <a href="/it/manage/item/del/618/"
+                                           data-global="false"
+                                           class="btn btn-link btn-link--icon"
+                                           data-toggle="modal"
+                                           data-target="#deleteItemModal"
+                                           title="Elimina">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    
+                    
+                                    
+                        
+                                </td>
+                        
+                            </tr>
+                        
+                        
+                        
+                            <tr>
+                        
+                                <th data-label="Titolo" scope="row" class="cell-heder">
+                                    <a href="/it/manage/structure/general/617/">Ristoro Agriturismo Bajta - Fattoria Carsica</a>
+                        
+                                </th>
+                        
+                                <td data-label="Tipo di oggetto" class="cell-date">
+                                    <span>
+                                        <i class="fad fa-file fa-lg mr-3 mb-3"></i>
+                                        Percorso
+                                    </span>
+                        
+                                </td>
+                        
+                                <td data-label="Creato il" class="cell-date">
+                                    <span class="d-block mb-2">15/01/2022</span>
+                                    <span>by Carraro</span>
+                        
+                                </td>
+                        
+                                <td data-label="Aggiornato il" class="cell-date">
+                        
+                                    
+                                        <span class="d-block mb-2">07/06/2023</span>
+                                        <span>by criba</span>
+                        
+                                    
+                        
+                                </td>
+                        
+                                <td data-label="Status" class="cell-status">
+                                    
+                                    
+                                        <span class="badge badge-success">
+                     
+                                            
+                                                Pubblicato
+                                            
+                                        </span>
+                                        <br/>
+                                        <span class="badge mt-3 badge-success">
+                                            
+                                                Verificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                    
+                                <td data-label="Status Indice di accessibilità"
+                                    class="cell-status text-center">
+                                    
+                                    
+                                        <span class="badge badge-success">
+                                            
+                                                Pubblico
+                                            
+                                        </span>
+                                        <br/>
+                                        <span class="badge mt-3 badge-success">
+                                            
+                                                Verificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                                <td data-label="Indice di accessibilità modificato dal rilevatore"
+                                    class="cell-status text-center">
+                                    
+                                    
+                     
+                                        <span class="badge badge-success">
+                                            
+                                                NON modificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                     
+                    
+                        
+                                <td class="cell-action">
+                                    
+                                        <a href="#"
+                                           class="btn btn-link btn-link--icon"
+                                           title="Gestione permessi"
+                                           data-label="Gestione permessi"
+                                           data-toggle="modal"
+                                           data-target="#permissions-item"
+                                           data-remote="/it/manage/explorer/item/617/permissions/">
+                                            <i class="fa fa-users"></i>
+                                        </a>
+                                    
+                                    
+                    
+                                    
+                                        <div class="dropdown d-inline-block">
+                                            <button class="btn btn-link dropdown-toggle"
+                                                    type="button"
+                                                    id="dropdownMenuButton"
+                                                    data-toggle="dropdown"
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                <i class="fa fa-share" aria-hidden="true"></i>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                
+                                                    <a href="/it/manage/download-structure-pdf/617/"
+                                                       class="btn btn-link btn-link--icon"
+                                                       title="Esporta in PDF">
+                                                        <i class="fas fa-file-pdf"></i> Esporta in PDF
+                                                    </a>
+                                                    <a href="/it/manage/download-xls/617/"
+                                                       class="btn btn-link btn-link--icon"
+                                                       title="Esporta in Excel">
+                                                        <i class="fas fa-table"></i> Esporta in Excel
+                                                    </a>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                     
+                                    
+                                        
+                                            <a href="/it/manage/structure/duplicate/617/"
+                                               class="btn btn-link btn-link--icon"
+                                               title="Copia">
+                                                <i class="fas fa-copy"></i>
+                                            </a>
+                                        
+                        
+                                    
+                                    
+                                        <a href="/it/manage/structure/general/617/"
+                                           class="btn btn-link btn-link--icon"
+                                           title="Modifica">
+                                            <i class="fas fa-pen"></i>
+                                        </a>
+                    
+                                        <a href="/it/manage/item/del/617/"
+                                           data-global="false"
+                                           class="btn btn-link btn-link--icon"
+                                           data-toggle="modal"
+                                           data-target="#deleteItemModal"
+                                           title="Elimina">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    
+                    
+                                    
+                        
+                                </td>
+                        
+                            </tr>
+                        
+                        
+                        
+                            <tr>
+                        
+                                <th data-label="Titolo" scope="row" class="cell-heder">
+                                    <a href="/it/manage/structure/general/616/">Bajta - Fattoria Carsica</a>
+                        
+                                </th>
+                        
+                                <td data-label="Tipo di oggetto" class="cell-date">
+                                    <span>
+                                        <i class="fad fa-file fa-lg mr-3 mb-3"></i>
+                                        Struttura
+                                    </span>
+                        
+                                </td>
+                        
+                                <td data-label="Creato il" class="cell-date">
+                                    <span class="d-block mb-2">15/01/2022</span>
+                                    <span>by Carraro</span>
+                        
+                                </td>
+                        
+                                <td data-label="Aggiornato il" class="cell-date">
+                        
+                                    
+                                        <span class="d-block mb-2">31/01/2023</span>
+                                        <span>by criba</span>
+                        
+                                    
+                        
+                                </td>
+                        
+                                <td data-label="Status" class="cell-status">
+                                    
+                                    
+                                        <span class="badge badge-success">
+                     
+                                            
+                                                Pubblicato
+                                            
+                                        </span>
+                                        <br/>
+                                        <span class="badge mt-3 badge-success">
+                                            
+                                                Verificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                    
+                                <td data-label="Status Indice di accessibilità"
+                                    class="cell-status text-center">
+                                    
+                                    
+                                        <span class="badge badge-success">
+                                            
+                                                Pubblico
+                                            
+                                        </span>
+                                        <br/>
+                                        <span class="badge mt-3 badge-success">
+                                            
+                                                Verificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                                <td data-label="Indice di accessibilità modificato dal rilevatore"
+                                    class="cell-status text-center">
+                                    
+                                    
+                     
+                                        <span class="badge badge-success">
+                                            
+                                                NON modificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                     
+                    
+                        
+                                <td class="cell-action">
+                                    
+                                        <a href="#"
+                                           class="btn btn-link btn-link--icon"
+                                           title="Gestione permessi"
+                                           data-label="Gestione permessi"
+                                           data-toggle="modal"
+                                           data-target="#permissions-item"
+                                           data-remote="/it/manage/explorer/item/616/permissions/">
+                                            <i class="fa fa-users"></i>
+                                        </a>
+                                    
+                                    
+                    
+                                    
+                                        <div class="dropdown d-inline-block">
+                                            <button class="btn btn-link dropdown-toggle"
+                                                    type="button"
+                                                    id="dropdownMenuButton"
+                                                    data-toggle="dropdown"
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                <i class="fa fa-share" aria-hidden="true"></i>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                
+                                                    <a href="/it/manage/download-structure-pdf/616/"
+                                                       class="btn btn-link btn-link--icon"
+                                                       title="Esporta in PDF">
+                                                        <i class="fas fa-file-pdf"></i> Esporta in PDF
+                                                    </a>
+                                                    <a href="/it/manage/download-xls/616/"
+                                                       class="btn btn-link btn-link--icon"
+                                                       title="Esporta in Excel">
+                                                        <i class="fas fa-table"></i> Esporta in Excel
+                                                    </a>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                     
+                                    
+                                        
+                                            <a href="/it/manage/structure/duplicate/616/"
+                                               class="btn btn-link btn-link--icon"
+                                               title="Copia">
+                                                <i class="fas fa-copy"></i>
+                                            </a>
+                                        
+                        
+                                    
+                                    
+                                        <a href="/it/manage/structure/general/616/"
+                                           class="btn btn-link btn-link--icon"
+                                           title="Modifica">
+                                            <i class="fas fa-pen"></i>
+                                        </a>
+                    
+                                        <a href="/it/manage/item/del/616/"
+                                           data-global="false"
+                                           class="btn btn-link btn-link--icon"
+                                           data-toggle="modal"
+                                           data-target="#deleteItemModal"
+                                           title="Elimina">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    
+                    
+                                    
+                        
+                                </td>
+                        
+                            </tr>
+                        
+                        
+                        
+                            <tr>
+                        
+                                <th data-label="Titolo" scope="row" class="cell-heder">
+                                    <a href="/it/manage/structure/general/599/">Azienda Agricola Ostrouska</a>
+                        
+                                </th>
+                        
+                                <td data-label="Tipo di oggetto" class="cell-date">
+                                    <span>
+                                        <i class="fad fa-file fa-lg mr-3 mb-3"></i>
+                                        Struttura
+                                    </span>
+                        
+                                </td>
+                        
+                                <td data-label="Creato il" class="cell-date">
+                                    <span class="d-block mb-2">02/11/2021</span>
+                                    <span>by Carraro</span>
+                        
+                                </td>
+                        
+                                <td data-label="Aggiornato il" class="cell-date">
+                        
+                                    
+                                        <span class="d-block mb-2">30/01/2023</span>
+                                        <span>by delzotto</span>
+                        
+                                    
+                        
+                                </td>
+                        
+                                <td data-label="Status" class="cell-status">
+                                    
+                                    
+                                        <span class="badge badge-success">
+                     
+                                            
+                                                Pubblicato
+                                            
+                                        </span>
+                                        <br/>
+                                        <span class="badge mt-3 badge-success">
+                                            
+                                                Verificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                    
+                                <td data-label="Status Indice di accessibilità"
+                                    class="cell-status text-center">
+                                    
+                                    
+                                        <span class="badge badge-success">
+                                            
+                                                Pubblico
+                                            
+                                        </span>
+                                        <br/>
+                                        <span class="badge mt-3 badge-success">
+                                            
+                                                Verificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                                <td data-label="Indice di accessibilità modificato dal rilevatore"
+                                    class="cell-status text-center">
+                                    
+                                    
+                     
+                                        <span class="badge badge-warning">
+                                            
+                                                Modificato
+                                            
+                                        </span>
+                                    
+                        
+                                </td>
+                     
+                    
+                        
+                                <td class="cell-action">
+                                    
+                                        <a href="#"
+                                           class="btn btn-link btn-link--icon"
+                                           title="Gestione permessi"
+                                           data-label="Gestione permessi"
+                                           data-toggle="modal"
+                                           data-target="#permissions-item"
+                                           data-remote="/it/manage/explorer/item/599/permissions/">
+                                            <i class="fa fa-users"></i>
+                                        </a>
+                                    
+                                    
+                    
+                                    
+                                        <div class="dropdown d-inline-block">
+                                            <button class="btn btn-link dropdown-toggle"
+                                                    type="button"
+                                                    id="dropdownMenuButton"
+                                                    data-toggle="dropdown"
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                <i class="fa fa-share" aria-hidden="true"></i>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                
+                                                    <a href="/it/manage/download-structure-pdf/599/"
+                                                       class="btn btn-link btn-link--icon"
+                                                       title="Esporta in PDF">
+                                                        <i class="fas fa-file-pdf"></i> Esporta in PDF
+                                                    </a>
+                                                    <a href="/it/manage/download-xls/599/"
+                                                       class="btn btn-link btn-link--icon"
+                                                       title="Esporta in Excel">
+                                                        <i class="fas fa-table"></i> Esporta in Excel
+                                                    </a>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                     
+                                    
+                                        
+                                            <a href="/it/manage/structure/duplicate/599/"
+                                               class="btn btn-link btn-link--icon"
+                                               title="Copia">
+                                                <i class="fas fa-copy"></i>
+                                            </a>
+                                        
+                        
+                                    
+                                    
+                                        <a href="/it/manage/structure/general/599/"
+                                           class="btn btn-link btn-link--icon"
+                                           title="Modifica">
+                                            <i class="fas fa-pen"></i>
+                                        </a>
+                    
+                                        <a href="/it/manage/item/del/599/"
+                                           data-global="false"
+                                           class="btn btn-link btn-link--icon"
+                                           data-toggle="modal"
+                                           data-target="#deleteItemModal"
+                                           title="Elimina">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    
+                    
+                                    
+                        
+                                </td>
+                        
+                            </tr>
+                        
+                        </tbody>
+
+                    </table>
+            
+                </div>
 
 
-
-        </main>
+             </main>
 
 
         

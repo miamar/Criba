@@ -27,3 +27,13 @@
     gap: 1rem; /* Adjust the spacing between items as needed */
     margin: 0;
 }
+
+.risultati span {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.risultati .selezionato {
+    color: #024296;
+}
