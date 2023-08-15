@@ -790,42 +790,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="/static/js/account/account.js?v=0.124"></script>
         
-    <script src="/static/js/account/permessi.js?v=0.124"></script>
-
-    <script>
-       // Get all the tabs
-const tabs = document.querySelectorAll('.tabs_bar .tab');
-
-tabs.forEach(clickedTab => {
-    // Add onClick event listener on each tab
-    clickedTab.addEventListener('click', () => {
-        // Remove the active class from all the tabs (this acts as a "hard" reset)
-        tabs.forEach(tab => {
-            tab.classList.remove('active');
-        });
-
-        // Add the active class on the clicked tab
-        clickedTab.classList.add('active');
-
-        // Get the ID of the associated content div
-        const contentId = clickedTab.getAttribute('href');
-
-        // Show the associated content div
-        const contentDiv = document.querySelector(contentId);
-        contentDiv.classList.add('show');
-
-        // Hide other content divs
-        tabs.forEach(tab => {
-            const otherContentId = tab.getAttribute('href');
-            if (otherContentId !== contentId) {
-                const otherContentDiv = document.querySelector(otherContentId);
-                otherContentDiv.classList.remove('show');
-            }
-        });
-    });
-});
-
-    </script>
+        <script src="/static/js/account/permessi.js?v=0.124"></script>
+        <script src="/static/js/search.js"></script>
 
     </body>
 </html>

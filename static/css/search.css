@@ -37,3 +37,14 @@
 .risultati .selezionato {
     color: #024296;
 }
+
+td.cell-cartella a {
+    font-size: 1.8rem;
+    color: #252525;
+    text-align: left;
+    font-weight: 500;
+}
+
+.hidden-column {
+    display: none;
+}

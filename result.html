@@ -124,7 +124,7 @@
             
                         <div class="form-check d-flex align-items-center mr-5">
                             <input type="checkbox" class="form-check-input" name="" value=""  autocomplete="off" id="" checked>
-                            <label class="form-check-label" for="">Struttura</label>
+                            <label class="form-check-label" for="">Mostra la cartella in cui si trova l'oggetto</label>
                         </div>
     
                     </div>
@@ -139,6 +139,12 @@
                             
                                 <th scope="col" data-order="title">
                                     <span>Titolo</span>
+                                    <i class="fas fa-sort"></i>
+                            
+                                </th>
+
+                                <th scope="col" class="cartella-column">
+                                    <span>Cartella</span>
                                     <i class="fas fa-sort"></i>
                             
                                 </th>
@@ -191,6 +197,11 @@
                                     <a href="/it/manage/structure/general/618/">Spaccio e cantina - Bajta - Fattoria Carsica</a>
                         
                                 </th>
+
+                                <td data-label="Cartella" class="cell-cartella">
+                                    <a href="">Nome della cartella</a>
+                        
+                                </td>
                         
                                 <td data-label="Tipo di oggetto" class="cell-date">
                                     <span>
@@ -351,6 +362,11 @@
                                     <a href="/it/manage/structure/general/617/">Ristoro Agriturismo Bajta - Fattoria Carsica</a>
                         
                                 </th>
+
+                                <td data-label="Cartella" class="cell-cartella">
+                                    <a href="">Nome della cartella</a>
+                        
+                                </td>
                         
                                 <td data-label="Tipo di oggetto" class="cell-date">
                                     <span>
@@ -511,6 +527,11 @@
                                     <a href="/it/manage/structure/general/616/">Bajta - Fattoria Carsica</a>
                         
                                 </th>
+
+                                <td data-label="Cartella" class="cell-cartella">
+                                    <a href="">Nome della cartella</a>
+                        
+                                </td>
                         
                                 <td data-label="Tipo di oggetto" class="cell-date">
                                     <span>
@@ -671,6 +692,11 @@
                                     <a href="/it/manage/structure/general/599/">Azienda Agricola Ostrouska</a>
                         
                                 </th>
+
+                                <td data-label="Cartella" class="cell-cartella">
+                                    <a href="">Nome della cartella</a>
+                        
+                                </td>
                         
                                 <td data-label="Tipo di oggetto" class="cell-date">
                                     <span>
@@ -850,7 +876,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="/static/js/account/account.js?v=0.124"></script>
         
-    <script src="/static/js/account/permessi.js?v=0.124"></script>
+        <script src="/static/js/account/permessi.js?v=0.124"></script>
+        <script src="/static/js/search.js"></script>
 
     </body>
 </html>
