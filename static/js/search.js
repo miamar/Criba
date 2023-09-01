@@ -31,13 +31,13 @@ tabs.forEach(clickedTab => {
 
 
 // Get the checkbox and the table cells containing the "Cartella" column
-const checkbox = document.querySelector('.form-check-input');
+const checkbox = document.querySelector('.form-check-input.cartella');
 const cartellaTHead = document.querySelector('.cartella-column');
 const cartellaCells = document.querySelectorAll('.cell-cartella');
 
 // Add an event listener to the checkbox
 checkbox.addEventListener('change', () => {
-    // If the checkbox is checked, show the "Cartella" column cells
+    // If the checkbox is checked, hide the "Cartella" column cells
     if (checkbox.checked) {
         cartellaCells.forEach(cell => {
             cell.style.display = '';
@@ -46,7 +46,7 @@ checkbox.addEventListener('change', () => {
         cartellaTHead.classList.remove('hidden-column');
 
     } else {
-        // If the checkbox is unchecked, hide the "Cartella" column cells
+        // If the checkbox is unchecked, show the "Cartella" column cells
         cartellaCells.forEach(cell => {
             cell.style.display = 'none';
         });
@@ -55,3 +55,7 @@ checkbox.addEventListener('change', () => {
         
     }
 });
+
+
+
+

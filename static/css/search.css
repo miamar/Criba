@@ -45,6 +45,6 @@ td.cell-cartella a {
     font-weight: 500;
 }
 
-.hidden-column {
+.hidden-column, .hidden-row {
     display: none;
 }
